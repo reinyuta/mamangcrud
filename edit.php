@@ -8,8 +8,23 @@
 <?php
     foreach($db->edit($_GET['id']) as $d){  
 ?>
+<style>
+body{
+    background-color: pink;
+    align-items: center;
+    padding-top: 250px;
+}
 
-<table>
+.td{
+    padding-top: 10px;
+}
+
+.semua{
+    padding-top: 10px;
+}
+</style>
+
+<table class="semua" align="center">
     <tr>
         <td>Nama</td>
         <td>
